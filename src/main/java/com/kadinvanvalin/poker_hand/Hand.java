@@ -102,7 +102,7 @@ class Hand {
 
         Map<String, Integer> cardValues = countedCards.get(0);
         Map<String, Integer> cardSuits = countedCards.get(1);
-        
+
 
 
         if (isAStraight() && cardSuits.containsValue(5)) {
